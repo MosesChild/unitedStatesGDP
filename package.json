@@ -1,0 +1,15 @@
+{
+  "name": "d3_example",
+  "version": "1.0.0",
+  "description": "bar graph in d3 of US GDP",
+  "main": "myD3.js",
+  "dependencies": {},
+  "devDependencies": {
+    "json-loader": "^0.5.7"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC"
+}

@@ -1,0 +1,54 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+body::after {
+  content: "";
+  background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAUklEQVQoU2NkQAUzGRgY0hkYGGA0XJYRxBJZbPofTQOc+yb2NFgNXCFUAMVEkAFEKUS2BavVb2JPz4K6FdWNMB42txJlNdFuxKqQqOBBUoQzwAHsOTkL1lLPLgAAAABJRU5ErkJggg==
+  ) repeat; 
+  opacity: 0.4;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+}
+
+.graph {
+  width: 100vw;
+  height: 100vh;
+}
+svg{
+  background: white;
+  box-shadow: 5px 5px 5px gray;
+}
+.title {
+  fill: steelblue;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 30px;
+  text-anchor:"middle";
+}
+.bar {
+    fill: steelblue;
+  }
+  
+  .bar:hover {
+    fill: brown;
+  }
+  
+  .axis--x path {
+    display: none;
+  }
+  .toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #ffffff;
+    border: 1px solid #6F257F;
+    padding: 14px;
+    text-align: center;
+  }
+
